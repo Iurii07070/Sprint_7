@@ -17,7 +17,7 @@ Before starting the tasks:
 
 Verify that they work correctly and return the necessary errors.
 
-## courier.CourierClass Creation
+## Courier Creation
 
 Check:
 
@@ -29,7 +29,7 @@ Check:
 - if any of the fields are missing, the request returns an error;
 - if you try to create a user with an existing login, an error is returned.
 
-## courier.CourierClass Login
+## Courier Login
 
 Check:
 
@@ -40,7 +40,7 @@ Check:
 - if you log in with a non-existent user, the request returns an error;
 - a successful request returns the id.
 
-## orders.OrderClass Creation
+## Order Creation
 
 Check that when creating an order:
 
@@ -51,7 +51,7 @@ Check that when creating an order:
 
 To test order creation, use parameterization.
 
-## orders.Orders List
+## Orders List
 
 Check that the response body returns a list of orders.
 
